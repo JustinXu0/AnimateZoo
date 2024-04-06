@@ -1,2 +1,2 @@
-# AnimateZoo Project
-This is a project page for AnimateZoo.
+# AnimateZoo
+Thanks for your interest. The code and datasets are coming soon!
