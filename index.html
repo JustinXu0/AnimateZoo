@@ -126,7 +126,7 @@
       
       <img src="static/videos/main_cases_1_title.gif" alt="MY ALT TEXT"/>
       <img src="static/videos/main_cases_2.gif" alt="MY ALT TEXT"/>
-      <img src="static/videos/main_cases_3.gif" alt="MY ALT TEXT"/>
+<!--       <img src="static/videos/main_cases_3.gif" alt="MY ALT TEXT"/> -->
       <img src="static/videos/main_cases_4.gif" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Faithful and controllable  cross-species animation results of <b><i>AnimateZoo</i></b>.
@@ -143,6 +143,20 @@
         <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
           <p>
+            Recent video editing advancements rely on accurate pose sequences to animate human actors. 
+            However, these efforts are not suitable for cross-species animation due to pose misalignment between species 
+            (for example, the poses of a cat differs greatly from that of a pig due to their distinct body structures). 
+            In this paper, we present <b><i>AnimateZoo</i></b>, a zero-shot diffusion-based video generator to address this issue, 
+            aiming to accurately animate various animals while preserving the background. The key technique involves two-fold subject alignment.
+            First, we improve appearance feature extraction by integrating a Laplacian detail booster and a prompt-tuning identity extractor. 
+            They capture essential appearance information, including identity and fine details. 
+            Second, we align shape features and address conflicts from differing animals by introducing a scale-information remover and an adaptive rescaling module. 
+            They both enhance subject alignment for accurate cross-species animation. 
+            Additionally, we introduce two high-quality animal video datasets with diverse species to benchmark cross-species animation. 
+            Trained on these extensive datasets, our model directly generates videos with accurate movements, consistent appearances, 
+            and high-fidelity frames, eliminating the need for test-time training.
+            Extensive experiments demonstrate our method's superiority in cross-species animation, showcasing robust adaptability and generality.
+<!--             
             Recent video editing advancements rely on accurate pose sequences to animate subjects. 
             However, these efforts are not suitable for cross-species animation due to pose misalignment between species 
             (for example, the poses of a cat differs greatly from that of a pig due to differences in 
@@ -151,7 +165,7 @@
             First, we improve appearance feature extraction by integrating a Laplacian detail booster and a prompt-tuning identity extractor. These components are specifically designed to capture essential appearance information, 
             including identity and fine details. Second, we align shape features and address conflicts from differing subjects by introducing a scale-information remover. This ensures accurate cross-species animation. 
             Moreover, we introduce two high-quality animal video datasets featuring a wide variety of species. Trained on these extensive datasets, our model is capable of generating videos characterized by accurate movements, consistent appearance, and high-fidelity frames, without the need for the pre-inference fine-tuning that prior arts required. 
-            Extensive experiments showcase the outstanding performance of our method in cross-species action following tasks, demonstrating exceptional shape adaptation capability.            
+            Extensive experiments showcase the outstanding performance of our method in cross-species action following tasks, demonstrating exceptional shape adaptation capability.             -->
           </p>
         </div>
       </div>
@@ -178,10 +192,10 @@
         <div class="hero-body">
       <h2 class="title is-3">Video Presentation</h2>
           <img src="static/videos/more_cases_1_title.gif" alt="MY ALT TEXT"/>
-          <img src="static/videos/more_cases_3_title.gif" alt="MY ALT TEXT"/>
+<!--           <img src="static/videos/more_cases_3_title.gif" alt="MY ALT TEXT"/>
           <img src="static/videos/more_cases_4_title.gif" alt="MY ALT TEXT"/>
           <img src="static/videos/more_cases_2_title.gif" alt="MY ALT TEXT"/>
-          <img src="static/videos/more_cases_5_title.gif" alt="MY ALT TEXT"/>
+          <img src="static/videos/more_cases_5_title.gif" alt="MY ALT TEXT"/> -->
           <h2 class="subtitle has-text-centered">
             Replacing video subjects with animals exhibiting different appearance characteristics
           </h2>
@@ -190,7 +204,7 @@
     </section>
 
 
-
+<!-- 
 <section class="card" style="width:60%; margin-top: 30px; margin-bottom: 30px;">
   <div class="hero-body">
       <h2 class="title is-3">Another Application: Creating Something Out of Nothing</h2>
@@ -212,7 +226,7 @@
         Transplanting the same subject and action across various scenarios
       </h2>
     </div>
-</section>
+</section> -->
 
 
 
@@ -222,8 +236,8 @@
     <h2 class="title is-3">Comparison with Advanced Methods</h2>
 
         
-        <img src="static/videos/user_study1_title.gif" alt="MY ALT TEXT"/>
-        <img src="static/videos/user_study2_title.gif" alt="MY ALT TEXT"/>
+<!--         <img src="static/videos/user_study1_title.gif" alt="MY ALT TEXT"/>
+        <img src="static/videos/user_study2_title.gif" alt="MY ALT TEXT"/> -->
         <img src="static/videos/user_study3_title.gif" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Our method surpasses others in background and subject fidelity, video quality, and coherence
@@ -239,7 +253,7 @@
       <h2 class="title">BibTeX</h2>
       <pre><code>@article{xu2024animatezoo,
   title={AnimateZoo: Zero-shot Video Generation of Cross-Species Animation via Subject Alignment},
-  author={Xu, Yuanfeng and Chen, Yuhao and Huang, Zhongzhan and He, Zijian and Wang, Guangrun and Torr, Philip and Lin, Liang},
+  author={Xu, Yuanfeng and Chen, Yuhao and Huang, Zhongzhan and He, Zijian and Wang, Guangrun and Lin, Liang},
   journal={arXiv preprint arXiv:2404.04946},
   year={2024}
 }
@@ -255,9 +269,10 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+             
+<!--             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            Commons Attribution-ShareAlike 4.0 International License</a>. -->
           </p>
 
         </div>
