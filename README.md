@@ -1,7 +1,9 @@
 # Anima2
 
 Our paper is published at ICASSP2025. Congratulations!
+
 Paper Link: https://ieeexplore.ieee.org/abstract/document/10889218/
+
 Project page: https://justinxu0.github.io/AnimateZoo/
 
 Thanks for your interest. 
